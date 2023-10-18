@@ -1,0 +1,94 @@
+:root {
+    --main-color: #ec0073;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+::selection {
+    background-color: var(--main-color);
+    color: #ffffff;
+}
+
+.form {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #eee;
+    border-radius: 6px;
+}
+.new-task {
+    padding: 10px;
+    border: 2px solid var(--main-color);
+    flex: 1;
+    outline: none;
+    border-radius: 6px;
+}
+.add {
+    padding: 10px;
+    background-color: white;
+    color: var(--main-color);
+    cursor: pointer;
+    outline: none;
+    border: 2px solid var(--main-color);
+    border-radius: 6px;
+    font-weight: bold;
+}
+.add:active {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.tasks {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #eee;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+}
+.tasks .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 2px solid var(--main-color);
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.tasks .task:not(:last-child) {
+    margin-bottom: 15px;
+}
+.tasks .task:hover {
+    background-color: #f7f7f7;
+}
+
+.tasks .task button {
+    padding: 6px;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: white;
+    color: #d11a2a;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid #d11a2a;
+}
+.tasks .task button:active {
+    background-color: #d11a2a;
+    color: #ffffff;
+}

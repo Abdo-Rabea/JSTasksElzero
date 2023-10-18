@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    /* height: 5000px; */
+}
+.results {
+    background-color: #eee;
+}
+.results .class-list span {
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
