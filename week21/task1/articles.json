@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "writer": "abdo",
+        "section": "accidents",
+        "title": "topology",
+        "content": "hello world"
+    },
+    {
+        "id": 2,
+        "writer": "ahmed",
+        "section": "accidents",
+        "title": "topology",
+        "content": "hello world"
+    },
+    {
+        "id": 3,
+        "writer": "rabea",
+        "section": "accidents",
+        "title": "topology",
+        "content": "hello world"
+    },
+    {
+        "id": 4,
+        "writer": "rabea",
+        "section": "accidents",
+        "title": "topology",
+        "content": "hello world"
+    },
+    {
+        "id": 5,
+        "writer": "rabea",
+        "section": "accidents",
+        "title": "topology",
+        "content": "hello world"
+    }
+]
